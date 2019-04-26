@@ -10,7 +10,7 @@ To install this add-on you just follow the same instructions of the official Goo
 ***Offical Google's tutorial:*** https://developers.google.com/gsuite/add-ons/editors/slides/quickstart/progress-bar
 
 # Customization
-To customize the colors and text (presenter name, title) you just need to change the gloval variables in the begin of this template.
+To customize the colors and text (presenter name, title) you just need to change the gloval variables in the begin of the .gs file: https://github.com/maraujo/maraujo_google_slide_template/blob/master/progress_and_footnote.gs
 
 # Use Example
 
