@@ -4,8 +4,10 @@ This is an extension from what you can create using this Google's tutorial on ho
 
 # Installation
 To install this add-on you just follow the same instructions of the official Google's tutorial. But you need to use the .gs provide in this repository:
-.gs File: https://github.com/maraujo/maraujo_google_slide_template/blob/master/progress_and_footnote.gs
-Offical Google's tutorial: https://developers.google.com/gsuite/add-ons/editors/slides/quickstart/progress-bar
+
+***.gs File:*** https://github.com/maraujo/maraujo_google_slide_template/blob/master/progress_and_footnote.gs
+
+***Offical Google's tutorial:*** https://developers.google.com/gsuite/add-ons/editors/slides/quickstart/progress-bar
 
 # Customization
 To customize the colors and text (presenter name, title) you just need to change the gloval variables in the begin of this template.
