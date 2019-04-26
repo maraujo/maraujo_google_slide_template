@@ -4,7 +4,7 @@
 var PROGRESS_BAR_ID = 'PROGRESS_BAR_ID';
 var FOOTNOTE_ID = 'FOOTNOTE_BAR_ID';
 var PRESENTER_NAME = "Matheus Araújo";
-var TITLE = "The Title of Your Project";
+var TITLE = "A ML framework for Continuous Treatment Adherence Prediction to CPAP users";
 var COLOR_1 = "#7a0019" // Darker
 var COLOR_2 = "#FFFFFF" // Lighter
 var COLOR_3 = "#EEEEEE" // Neutral
@@ -81,7 +81,7 @@ function deleteBars() {
 }
 
 function createFootnote() {
-  deleteBars(); // Delete any existing progress bars
+  deleteFootnote(); // Delete any existing progress bars
   var slides = presentation.getSlides();
   for (var i = 0; i < slides.length; ++i) {
     var x = 0;
