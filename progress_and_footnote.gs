@@ -1,3 +1,6 @@
+// Extended from Google Original Tutorial: https://developers.google.com/gsuite/add-ons/editors/slides/quickstart/progress-bar
+// Extended by Matheus Araujo - www.matheusaraujo.com
+
 /**
  * @OnlyCurrentDoc Adds progress bars to a presentation.
  */
