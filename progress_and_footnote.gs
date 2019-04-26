@@ -58,6 +58,7 @@ function createBars() {
       bar.getBorder().setTransparent();
       bar.getFill().setSolidFill(COLOR_1)
       bar.setLinkUrl(PROGRESS_BAR_ID);
+      bar.sendToBack();
     }
   }
 }
@@ -100,6 +101,7 @@ function createFootnote() {
     nameStyle.setForegroundColor(COLOR_2);
     nameStyle.setFontSize(FONT_SIZE);
     nameText.getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
+    barWithName.sendToBack();
     
     // Setting bar with presentation title
     var barWithTitle = slides[i].insertShape(SlidesApp.ShapeType.RECTANGLE, barWithName.getWidth(), y,barWithTitleWidth, FOOTNOTE_HEIGHT);
@@ -111,6 +113,7 @@ function createFootnote() {
     titleStyle.setForegroundColor(COLOR_1);
     titleStyle.setFontSize(FONT_SIZE);
     titleText.getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
+    barWithTitle.sendToBack();
     
     // Setting bar with slide number
     var barWithSlideno = slides[i].insertShape(SlidesApp.ShapeType.RECTANGLE, barWithName.getWidth() + barWithTitle.getWidth(), y, barWithSlidenoWidth, FOOTNOTE_HEIGHT);
@@ -122,6 +125,7 @@ function createFootnote() {
     slidenoStyle.setForegroundColor(COLOR_2);
     slidenoStyle.setFontSize(FONT_SIZE);
     slidenoText.getParagraphStyle().setParagraphAlignment(SlidesApp.ParagraphAlignment.CENTER);
+    barWithSlideno.sendToBack();
   }
 }
 
