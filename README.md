@@ -20,3 +20,6 @@ To customize the colors and text (presenter name, title) you just need to change
 
 # Last update
 April 25 - 2019
+
+# More about the author
+www.matheusaraujo.com
